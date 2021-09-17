@@ -9,7 +9,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: false
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      default-zone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
     server:
       wait-time-in-ms-when-sync-empty: 3000
   server:
