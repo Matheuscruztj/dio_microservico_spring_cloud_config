@@ -5,7 +5,7 @@ eureka:
     hostname: localhost
     port: 9000
   client:
-    register-with-eureka: false
+    register-with-eureka: true
     fetch-registry: false
     service-url:
       default-zone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
